@@ -1,6 +1,6 @@
 
 import React from "react"
-import GitHubLogo from "../images/GitHubMark/GitHub-Mark-64px.png"
+import Welcome from "./welcome"
 
 
 class portfolio extends React.Component{
@@ -8,7 +8,7 @@ class portfolio extends React.Component{
     render(){
         return(
             <div className="portfolio">
-                <p>TEST</p>
+                <Welcome />
             </div>
         )
     }

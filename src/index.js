@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Portfolio from "./components/main"
+import Portfolio from "./components/portfolio"
 
 
 document.addEventListener("DOMContentLoaded", () => {
