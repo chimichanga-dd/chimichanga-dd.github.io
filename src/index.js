@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./components/main"
+import Portfolio from "./components/main"
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    let gameContainer = document.getElementById("portfolio-container");
-    ReactDOM.render(<Main />, gameContainer)
+    let portfolioContainer = document.getElementById("portfolio-container");
+    ReactDOM.render(<Portfolio />, portfolioContainer)
 })
