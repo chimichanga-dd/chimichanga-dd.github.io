@@ -53,9 +53,8 @@
     margin-top: 15px;
 }
 .console-bottom li:last-of-type {
-    display: flex;
-    align-items: center;
     margin-bottom: 15px;
+    height: 40px;
 }
 
 .output{

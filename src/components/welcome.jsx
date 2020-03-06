@@ -35,7 +35,7 @@ class Welcome extends React.Component {
 
         return (
             <div className="welcome">
-                WELCOME!
+                >  David Dixon
                 <div>
                     <Typed
                         strings={['My name is David Dixon']}
