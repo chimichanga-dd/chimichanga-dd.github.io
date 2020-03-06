@@ -1,6 +1,7 @@
 
 import React from "react"
 import Welcome from "./welcome"
+import About from "./about"
 
 
 class portfolio extends React.Component{
@@ -9,6 +10,7 @@ class portfolio extends React.Component{
         return(
             <div className="portfolio">
                 <Welcome />
+                <About />
             </div>
         )
     }
