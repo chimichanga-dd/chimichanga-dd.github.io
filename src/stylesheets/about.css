@@ -1,0 +1,86 @@
+
+
+.about-container{
+    max-width: 600px;
+    width: 100%;
+}
+
+.console-top{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    background: lightgray;
+
+    padding: 5px 0px 5px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.fake-icon{
+    height: 15px;
+    width: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.red-button{
+    background-color: #ee6b5b;
+}
+.yellow-button{
+    background-color: #f8be48;
+}
+.green-button{
+    background-color: #5fc352;
+}
+
+.console-bottom{
+    background-color: #534c58;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.console-bottom li{
+    color: #f3e9f2;
+    margin-top: 30px;
+}
+
+.console-bottom li:first-of-type {
+    margin-top: 15px;
+}
+.console-bottom li:last-of-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.output{
+    color: #d2bc8c
+}
+
+.output > a{
+    color: #51b9b9
+}
+.output > a:active{
+    color: #a8dcdc
+}
+
+.arrow{
+    margin-right: 10px;
+}
+
+.blinker{
+    display: inline-block;
+    height: 15px;
+    width: 8px;
+    background-color: white;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  from {opacity: 0;}
+  50% {opacity: 1;}
+  to {opacity: 0;}
+}
