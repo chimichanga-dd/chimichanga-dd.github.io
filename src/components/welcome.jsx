@@ -21,7 +21,7 @@ class Welcome extends React.Component {
     showSecond() {
         if (this.state.showSecond) {
             return <Typed
-                strings={['I am a Software Engineer', 'I am a map enthusiast',]}
+                strings={['I am a Software Engineer']}
                 typeSpeed={80}
                 backDelay={1000}
                 backSpeed={40}
