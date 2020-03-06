@@ -3,3 +3,9 @@
 body{
     background-color: #f1edf1;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
