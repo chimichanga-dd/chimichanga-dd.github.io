@@ -35,7 +35,7 @@
 }
 
 .console-bottom{
-    background-color: #534c58;
+    background-color: #6f6875;
     padding: 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -45,7 +45,7 @@
 
 
 .console-bottom li{
-    color: #f3e9f2;
+    color: #f9f9f9;
     margin-top: 30px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .output{
-    color: #d2bc8c
+    color: #dabf86;
 }
 
 .output > a{
