@@ -24,7 +24,7 @@ const Projects = () => {
         <div className="projects-container">
             {projectList.map( (proj) => {
                     return(
-                        <div className={`project-${proj.name}`} key={proj.name}>
+                        <div className={`proj`} key={proj.name}>
                             <h3 className={"proj-name"}>{proj.name}</h3>
                             <div className={"proj-description"}>{proj.description}</div>
                             <ul className={"proj-tech"}>
