@@ -5,11 +5,21 @@
 }
 
 .proj{
+    display: flex;
     background: white;
     border-radius: 5px;
 
     margin-top: 30px;
     padding: 10px;
+}
+
+.proj-pic{
+    width: 100%;
+    max-width: 30em
+}
+
+.proj-demo{
+    width: 100%
 }
 
 .proj-name{
@@ -24,12 +34,17 @@
 
 .proj-tech{
     display: flex;
-    padding-top: 10px;
+    flex-wrap: wrap;
 }
 
 .tech-buttons{
-    margin-right: 10px;
+    margin: 10px 10px 0 0;
     border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.proj-links{
+    padding-top: 10px;
 }
 
 .proj-links > a{
