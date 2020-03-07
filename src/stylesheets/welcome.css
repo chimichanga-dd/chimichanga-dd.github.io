@@ -1,7 +1,7 @@
 
 
 .name{
-    color: #653c65;
+    color: #785fc3;
     font-size: 70px;
     font-weight: 900;
     margin: 40px 0;
@@ -9,8 +9,10 @@
 
 
 .mini-about{
-    color: #492b5f;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     font-size: 20px;
     padding-bottom: 40px;
+
+    color: #492b5f;
 }
