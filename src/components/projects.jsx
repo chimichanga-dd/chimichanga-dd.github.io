@@ -30,7 +30,7 @@ const Projects = () => {
                             <ul className={"proj-tech"}>
                                 {proj.tech.map((tech,idx) => {
                                     return (
-                                        <li className="tech" key={`tech-${idx}`}>
+                                        <li className="tech-buttons" key={`tech-${idx}`}>
                                             {tech}
                                         </li>
                                     )

@@ -7,6 +7,8 @@
 .proj{
     background: white;
     border-radius: 5px;
+
+    margin-top: 30px;
     padding: 10px;
 }
 
@@ -25,9 +27,8 @@
     padding-top: 10px;
 }
 
-.tech{
-    margin: 10px;
-    padding-right: 10px;
+.tech-buttons{
+    margin-right: 10px;
     border: 1px solid black;
 }
 
