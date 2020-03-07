@@ -25,8 +25,8 @@ const Projects = () => {
             {projectList.map( (proj) => {
                     return(
                         <div className={`project-${proj.name}`} key={proj.name}>
-                            <h3 clasName={"proj-name"}>{proj.name}</h3>
-                            <div clasName={"proj-description"}>{proj.description}</div>
+                            <h3 className={"proj-name"}>{proj.name}</h3>
+                            <div className={"proj-description"}>{proj.description}</div>
                             <ul className={"proj-tech"}>
                                 {proj.tech.map((tech,idx) => {
                                     return (
