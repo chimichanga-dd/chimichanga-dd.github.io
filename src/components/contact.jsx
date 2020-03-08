@@ -1,6 +1,8 @@
 
 import React from "react"
 import hs from "../images/hs2.jpg";
+import linkedIn from "../images/LinkedIn-Logos/LI-In-Bug.png";
+import gitHub from "../images/GitHubMark/GitHub-Mark-64px.png"
 
 const Contact = () => {
 
@@ -11,9 +13,9 @@ const Contact = () => {
             </h2>
             <div className="line-break"></div>
             <ul className="contact-list">
-                <li>LinkedIn</li>
-                <li><img src={hs} alt="headshot" className="contact-headshot"/></li>
-                <li>Github</li>
+                <li><img src={linkedIn} alt={"linkedIn logo"} className="logo"/></li>
+                <li><img src={hs} alt="headshot" className="contact-headshot" /></li>
+                <li><img src={gitHub} alt={"gitHub logo"} className="logo"/></li>
             </ul>
         </div>
     )

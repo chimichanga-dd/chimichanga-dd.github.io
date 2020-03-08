@@ -21,6 +21,11 @@
     border-radius: 100%;
 }
 
+.logo{
+    width: 64px
+}
+
+
 @media only screen and (max-width: 475px){
 
 
@@ -31,6 +36,10 @@
 
     .contact-list > li{
         padding: 10px;
+    }
+
+    .logo{
+        width: 40px
     }
 
 }
