@@ -58,17 +58,6 @@ class About extends React.Component {
                 </div>
                 <ul className="console-bottom">
 
-                    <li className="contact-info">
-                        <div className="contact-info input">
-                            <span className="arrow">></span>David.contactInfo
-                        </div>
-                        <div className="contact-info output">
-                                ["<a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address">chimichanga@g.ucla.edu</a>",
-                            "<a href="https://www.linkedin.com/in/david-d-b36589190/" target="_blank" alt="linkedin link">LinkedIn</a>",
-                            "<a href="https://github.com/chimichanga-dd" target="_blank" alt="github link">GitHub</a>"]
-                        </div>
-                    </li>
-
                     <li className="resume" key={"resume"}>
                         <div className="resume input">
                             <span className="arrow">></span>David.resume
@@ -102,6 +91,17 @@ class About extends React.Component {
                         </div>
                             <div className="interests output">
                                 ["Skateboarding", "Rock Climbing", "League of Legends", "Apparel"]
+                        </div>
+                    </li>
+
+                    <li className="contact-info">
+                        <div className="contact-info input">
+                            <span className="arrow">></span>David.contactInfo
+                        </div>
+                        <div className="contact-info output">
+                            ["<a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address">chimichanga@g.ucla.edu</a>",
+                            "<a href="https://www.linkedin.com/in/david-d-b36589190/" target="_blank" alt="linkedin link">LinkedIn</a>",
+                            "<a href="https://github.com/chimichanga-dd" target="_blank" alt="github link">GitHub</a>"]
                         </div>
                     </li>
 

@@ -7,7 +7,6 @@
 .proj{
     display: grid;
     box-sizing: border-box;
-    grid-gap: 15px;
     grid-template-areas:
         "pic title title title"
         "pic desc desc desc"
@@ -39,23 +38,27 @@
 
 .proj-name{
     grid-area: title;
-    font-size: 25px;
+    font-size: 35px;
+    color: #4c0994;
     margin: 0;
 }
 
 .proj-description{
     grid-area: desc;
     padding-top: 10px;
+    margin-top: 15px;
 }
 
 .proj-tech{
     grid-area: tech;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5px;
 }
 
 .tech-buttons{
-    border: 2px solid #9496e4;
+    border-left: 2px solid #9496e4;
+    border-right: 2px solid #9496e4;
     border-radius: 5px;
     
     margin: 10px 10px 0 0;
@@ -67,10 +70,24 @@
 .proj-links{
     grid-area: links;
     padding-top: 10px;
+    margin: 20px 0;
 }
 
 .proj-links > a{
-    margin-right: 20px
+    padding: 7px 20px;
+    margin-right: 20px;
+
+    background-color: #9396e4;
+    border-radius: 5px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.proj-links > a:last-child{
+    background-color: #ffffff;
+    color: #9296e4;
+    box-shadow: 2px 3px 5px 1px #0000002b;
 }
 
 
@@ -83,6 +100,10 @@
             "pic pic desc desc"
             "pic pic tech tech"
             "pic pic links link";
+    }
+
+    .proj-demo{
+        min-width: 200px
     }
 }
 
