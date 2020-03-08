@@ -4,6 +4,7 @@ import Nav from "./nav"
 import Welcome from "./welcome"
 import About from "./about"
 import Projects from "./projects"
+import Contact from "./contact"
 
 
 
@@ -16,6 +17,7 @@ class portfolio extends React.Component{
                 <Welcome />
                 <About />
                 <Projects />
+                <Contact />
             </div>
         )
     }
