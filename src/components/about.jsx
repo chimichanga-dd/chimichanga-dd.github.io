@@ -34,7 +34,7 @@ class About extends React.Component {
 
     changeCursorDisplay(){
         // select cursor for occupation
-        let cursor = document.querySelectorAll(".typed-cursor")[1]
+        let cursor = document.querySelectorAll(".typed-cursor")[0]
         cursor.style.display = this.state.showOccupation ? "none" : "inline"
     }
 
