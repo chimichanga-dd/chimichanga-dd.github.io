@@ -44,22 +44,20 @@ const Projects = () => {
                             <div className="proj-pic">
                                 <img src={proj.demo} alt={`demo for ${proj.name}`} className="proj-demo"/>
                             </div>
-                            <div className="proj-info">
-                                <h3 className={"proj-name"}>{proj.name}</h3>
-                                <div className={"proj-description"}>{proj.description}</div>
-                                <ul className={"proj-tech"}>
-                                    {proj.tech.map((tech, idx) => {
-                                        return (
-                                            <li className="tech-buttons" key={`tech-${idx}`}>
-                                                {tech}
-                                            </li>
-                                        )
-                                    })}
-                                </ul>
-                                <div className="proj-links">
-                                    <a href={proj.links.live} target="_blank" className="live-link">Live</a>
-                                    <a href={proj.links.source} target="_blank" className="source-link">Source</a>
-                                </div>
+                            <h3 className={"proj-name"}>{proj.name}</h3>
+                            <div className={"proj-description"}>{proj.description}</div>
+                            <ul className={"proj-tech"}>
+                                {proj.tech.map((tech, idx) => {
+                                    return (
+                                        <li className="tech-buttons" key={`tech-${idx}`}>
+                                            {tech}
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                            <div className="proj-links">
+                                <a href={proj.links.live} target="_blank" className="live-link">Live</a>
+                                <a href={proj.links.source} target="_blank" className="source-link">Source</a>
                             </div>
                         </div>
                     )

@@ -5,7 +5,16 @@
 }
 
 .proj{
-    display: flex;
+    display: grid;
+    box-sizing: border-box;
+    grid-gap: 10px;
+    grid-template-areas:
+        "pic title title title"
+        "pic desc desc desc"
+        "pic desc desc desc"
+        "pic tech tech tech"
+        "pic links links link";
+
     background: white;
     border-radius: 5px;
 
@@ -14,30 +23,38 @@
 }
 
 .proj-pic{
-    width: 100%;
-    max-width: 30em
+    height: 100%;
+    grid-area: pic;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .proj-demo{
-    width: 100%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .proj-name{
+    grid-area: title;
     font-size: 25px;
     margin: 0;
     margin-top: 10px;
 }
 
 .proj-description{
+    grid-area: desc;
     padding-top: 10px;
 }
 
 .proj-tech{
+    grid-area: tech;
     display: flex;
     flex-wrap: wrap;
 }
 
 .tech-buttons{
+    grid-area: links;
     margin: 10px 10px 0 0;
     border: 1px solid black;
     padding: 5px 10px;
@@ -49,4 +66,37 @@
 
 .proj-links > a{
     margin-right: 20px
+}
+
+
+/* sub 900 */
+@media only screen and (max-width: 900px){
+    .proj-demo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .proj{
+        grid-template-areas:
+            "pic pic title title"
+            "pic pic desc desc"
+            "pic pic desc desc"
+            "pic pic tech tech"
+            "pic pic links link";
+    }
+}
+
+/*sub 550 */
+@media only screen and (max-width: 550px){
+
+    .proj{
+        grid-template-areas:
+            "pic pic pic pic"
+            "pic pic pic pic"
+            "title title title title"
+            "desc desc desc desc"
+            "tech tech tech tech"
+            "links links links links";
+    }
 }
