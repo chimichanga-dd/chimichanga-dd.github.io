@@ -26,3 +26,20 @@
   50% {opacity: 1;}
   to {opacity: 0;}
 }
+
+
+@media only screen and (max-width: 490px){
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-name{
+        margin-right: 50px;
+    }
+
+    .last-name{
+        margin-left: 45px;
+    }
+}
