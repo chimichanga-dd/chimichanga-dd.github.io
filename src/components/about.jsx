@@ -33,7 +33,8 @@ class About extends React.Component {
     }
 
     changeCursorDisplay(){
-        let cursor = document.querySelector(".typed-cursor")
+        // select cursor for occupation
+        let cursor = document.querySelectorAll(".typed-cursor")[1]
         cursor.style.display = this.state.showOccupation ? "none" : "inline"
     }
 
@@ -44,7 +45,6 @@ class About extends React.Component {
             typeSpeed={80}
             backDelay={3000}
             backSpeed={5}
-            onBegin={() => this.changeCursorDisplay()}
             onComplete={() => { this.updateState(true); this.changeCursorDisplay()}}
             loop
         />
