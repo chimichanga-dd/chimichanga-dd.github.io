@@ -67,17 +67,3 @@
 .arrow{
     margin-right: 10px;
 }
-
-.blinker{
-    display: inline-block;
-    height: 15px;
-    width: 8px;
-    background-color: white;
-    animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  from {opacity: 0;}
-  50% {opacity: 1;}
-  to {opacity: 0;}
-}

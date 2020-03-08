@@ -16,3 +16,13 @@
 
     color: #492b5f;
 }
+
+.blinker{
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  from {opacity: 0;}
+  50% {opacity: 1;}
+  to {opacity: 0;}
+}
