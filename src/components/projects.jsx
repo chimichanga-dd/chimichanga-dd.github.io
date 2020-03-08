@@ -38,6 +38,10 @@ const Projects = () => {
 
     return(
         <div className="projects-container">
+            <h2 className="section-header">
+                Projects
+            </h2>
+            <div className="line-break"></div>
             {projectList.map( (proj) => {
                     return(
                         <div className={`proj`} key={proj.name}>
