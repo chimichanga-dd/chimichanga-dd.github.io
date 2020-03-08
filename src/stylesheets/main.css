@@ -3,6 +3,11 @@
 @import url("projects.css");
 @import url("nav.css");
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: #f1edf1;
     font-family: 'Source Sans Pro', sans-serif;
