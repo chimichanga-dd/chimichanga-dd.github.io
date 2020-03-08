@@ -1,0 +1,23 @@
+
+
+.nav-bar{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.nav-bar-link-container{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.nav-bar-link-container > li{
+    margin-left: 30px;
+}
+
+.nav-bar-link{
+    text-decoration: none;
+    color: black;
+}
