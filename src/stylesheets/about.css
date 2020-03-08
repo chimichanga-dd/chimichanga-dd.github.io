@@ -54,11 +54,11 @@
 }
 
 .output{
-    color: #dabf86;
+    color: #ffcd64;
 }
 
 .output > a{
-    color: #51b9b9
+    color: #1af1f1
 }
 .output > a:active{
     color: #a8dcdc
