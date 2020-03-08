@@ -7,7 +7,7 @@
 .proj{
     display: grid;
     box-sizing: border-box;
-    grid-gap: 10px;
+    grid-gap: 15px;
     grid-template-areas:
         "pic title title title"
         "pic desc desc desc"
@@ -41,7 +41,6 @@
     grid-area: title;
     font-size: 25px;
     margin: 0;
-    margin-top: 10px;
 }
 
 .proj-description{
@@ -56,13 +55,17 @@
 }
 
 .tech-buttons{
-    grid-area: links;
+    border: 2px solid #9496e4;
+    border-radius: 5px;
+    
     margin: 10px 10px 0 0;
-    border: 1px solid black;
     padding: 5px 10px;
+    
+    font-size: 12px;
 }
 
 .proj-links{
+    grid-area: links;
     padding-top: 10px;
 }
 
@@ -98,5 +101,13 @@
 
     .proj-pic{
         margin-right: 0;
+    }
+
+    .proj-name{
+        padding-top: 20px;
+    }
+
+    .proj-description .proj-tech {
+        padding-top: 10px;
     }
 }
