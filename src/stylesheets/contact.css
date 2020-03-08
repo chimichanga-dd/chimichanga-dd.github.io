@@ -20,3 +20,17 @@
     height: 150px;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 475px){
+
+
+    .contact-headshot{
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact-list > li{
+        padding: 10px;
+    }
+
+}
