@@ -19,7 +19,7 @@
     border-radius: 5px;
 
     margin-top: 30px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .proj-pic{
@@ -27,6 +27,7 @@
     grid-area: pic;
     border: 1px solid gray;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 .proj-demo{
@@ -70,13 +71,7 @@
 
 
 /* sub 900 */
-@media only screen and (max-width: 900px){
-    .proj-demo{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
+@media only screen and (max-width: 800px){
     .proj{
         grid-template-areas:
             "pic pic title title"
@@ -98,5 +93,9 @@
             "desc desc desc desc"
             "tech tech tech tech"
             "links links links links";
+    }
+
+    .proj-pic{
+        margin-right: 0;
     }
 }
