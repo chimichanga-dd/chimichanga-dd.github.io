@@ -30,7 +30,7 @@
 }
 
 .console-bottom{
-    background-color: #6f6875;
+    background-color: #483f4e;
     padding: 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -58,7 +58,7 @@
 }
 
 .output > a{
-    color: #b1ffcd
+    color: #abb1ff;
 }
 .output > a:active{
     color: #a8dcdc
