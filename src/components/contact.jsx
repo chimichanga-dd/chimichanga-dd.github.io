@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="line-break"></div>
             <ul className="contact-list">
                 <li>LinkedIn</li>
-                <li><img src={hs} alt="headshot"/></li>
+                <li><img src={hs} alt="headshot" className="contact-headshot"/></li>
                 <li>Github</li>
             </ul>
         </div>
