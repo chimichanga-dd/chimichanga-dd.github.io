@@ -50,7 +50,7 @@ class About extends React.Component {
         />
 
         return(
-            <div id="About" className="about-container">
+            <div className="about-container">
                 <div className="console-top">
                     <div className="red-button fake-icon"></div>
                     <div className="yellow-button fake-icon"></div>
