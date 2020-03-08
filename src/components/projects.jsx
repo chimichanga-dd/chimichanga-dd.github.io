@@ -60,7 +60,7 @@ const Projects = () => {
                                 })}
                             </ul>
                             <div className="proj-links">
-                                <a href={proj.links.live} target="_blank" className="live-link">Live</a>
+                                <a href={proj.links.live} target="_blank" className="live-link">Demo</a>
                                 <a href={proj.links.source} target="_blank" className="source-link">Source</a>
                             </div>
                         </div>
