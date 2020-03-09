@@ -5,20 +5,31 @@
     align-items: center;
 }
 
-.contact-list{
+.contact-list-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
-.contact-list > li{
-    padding: 20px;
+.contact-list-top{
+    display: flex;
+    align-items: center;
+}
+
+.contact-list-top > li{
+    padding: 10px 20px;
 }
 
 .contact-headshot{
     width: 150px;
     height: 150px;
     border-radius: 100%;
+}
+
+.contact-email > a{
+    color: black;
+    text-decoration: none;
 }
 
 .logo{
@@ -34,7 +45,7 @@
         height: 100px;
     }
 
-    .contact-list > li{
+    .contact-list-top > li{
         padding: 10px;
     }
 
