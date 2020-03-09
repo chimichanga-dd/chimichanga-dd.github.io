@@ -13,8 +13,8 @@ const Welcome = () => {
                         Dixon <span className="blinker"> {`<`} </span>
                     </span>
                 </div>
-                <div id="About" className="mini-about">Former GIS practitioner turned
-                                            Software engineer who is creating projects
+                <div id="About" className="mini-about">Former information systems analyst turned
+                                            software engineer who is creating projects
                                             with Ruby, Rails, React and much more.
                 </div>
             </div>
