@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from 'react-typed';
+import {Link} from "react-router-dom"
 
 class About extends React.Component {
 
@@ -62,8 +63,8 @@ class About extends React.Component {
                         <div className="resume input">
                             <span className="arrow">></span>David.resume
                         </div>
-                            <div className="resume output">
-                            ["<a href="https://chimichanga-dd.github.io/resume/" target="_blank" alt="resume link" rel="noopener">Resume</a>"]
+                        <div className="resume output">
+                            ["<a href="https://chimichanga-dd.github.io/resume" target="_blank" alt="email address" rel="noopener">Resume</a>"]
                         </div>
                     </li>
 
