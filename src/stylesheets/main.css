@@ -4,11 +4,6 @@
 @import url("nav.css");
 @import url("contact.css");
 
-
-html{
-  scroll-behavior: smooth;
-}
-
 body{
     background-color: #fffdff;
     font-family: 'Source Sans Pro', sans-serif;

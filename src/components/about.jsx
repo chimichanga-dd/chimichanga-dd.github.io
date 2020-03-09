@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import Typed from 'react-typed';
 
 class About extends React.Component {
