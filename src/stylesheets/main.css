@@ -4,10 +4,18 @@
 @import url("nav.css");
 @import url("contact.css");
 
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
 body{
-    background-color: #fffdff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+  width: 100%;
+  height: 100%;
+  background-color: #fffdff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 ul {
@@ -17,8 +25,13 @@ ul {
 }
 
 .portfolio{
-    max-width: 900px;
-    padding: 20px;
-    margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.portfolio-container{
+  width: 100%;
+  height: 100%;
 }
 
