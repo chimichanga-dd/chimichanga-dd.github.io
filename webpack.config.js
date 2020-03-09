@@ -37,5 +37,6 @@ module.exports = {
         path: __dirname + '/dist',
         publicPath: '/dist',
         filename: 'main.js'
-    }
+    },
+    devtool: "source-map"
 }
