@@ -63,7 +63,7 @@ class About extends React.Component {
                             <span className="arrow">></span>David.resume
                         </div>
                             <div className="resume output">
-                                ["<a href="https://chimichanga-dd.github.io/resume/" target="_blank" alt="resume link">Resume</a>"]
+                            ["<a href="https://chimichanga-dd.github.io/resume/" target="_blank" alt="resume link" rel="noopener">Resume</a>"]
                         </div>
                     </li>
 
@@ -99,9 +99,9 @@ class About extends React.Component {
                             <span className="arrow">></span>David.contactInfo
                         </div>
                         <div className="contact-info output">
-                            ["<a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address">chimichanga@g.ucla.edu</a>",
-                            "<a href="https://www.linkedin.com/in/david-d-b36589190/" target="_blank" alt="linkedin link">LinkedIn</a>",
-                            "<a href="https://github.com/chimichanga-dd" target="_blank" alt="github link">GitHub</a>"]
+                            ["<a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address" rel="noopener">chimichanga@g.ucla.edu</a>",
+                            "<a href="https://www.linkedin.com/in/david-d-b36589190/" target="_blank" alt="linkedin link" rel="noopener">LinkedIn</a>",
+                            "<a href="https://github.com/chimichanga-dd" target="_blank" alt="github link" rel="noopener">GitHub</a>"]
                         </div>
                     </li>
 
