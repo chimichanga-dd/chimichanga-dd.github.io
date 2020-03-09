@@ -1,6 +1,8 @@
+
+
 import React from "react";
 import Typed from 'react-typed';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 class About extends React.Component {
 
@@ -27,30 +29,30 @@ class About extends React.Component {
             return <Typed
                 strings={["[\"Software Engineer\"]"]}
                 typeSpeed={10}
-                onComplete={(self) => {self.cursor.remove(); this.sleepyUpdate() }}
+                onComplete={(self) => { self.cursor.remove(); this.sleepyUpdate() }}
             />
         }
         return null
     }
 
-    changeCursorDisplay(){
+    changeCursorDisplay() {
         // select cursor for occupation
         let cursor = document.querySelectorAll(".typed-cursor")[0]
         cursor.style.display = this.state.showOccupation ? "none" : "inline"
     }
 
-    render(){
+    render() {
 
         let occupationInput = <Typed
             strings={["David.occupation"]}
             typeSpeed={80}
             backDelay={3000}
             backSpeed={5}
-            onComplete={() => { this.updateState(true); this.changeCursorDisplay()}}
+            onComplete={() => { this.updateState(true); this.changeCursorDisplay() }}
             loop
         />
 
-        return(
+        return (
             <div className="about-container">
                 <div className="console-top">
                     <div className="red-button fake-icon"></div>
@@ -64,7 +66,7 @@ class About extends React.Component {
                             <span className="arrow">></span>David.resume
                         </div>
                         <div className="resume output">
-                            ["<a href="https://chimichanga-dd.github.io/resume" target="_blank" alt="email address" rel="noopener">Resume</a>"]
+                            ["<Link to="/resume">Resume</Link>"]
                         </div>
                     </li>
 
@@ -72,8 +74,8 @@ class About extends React.Component {
                         <div className="education input">
                             <span className="arrow">></span>David.education
                         </div>
-                            <div className="education output">
-                                [" B.A. Geography - University of California Los Angeles", "Self Study - App Academy Full Stack Bootcamp"]
+                        <div className="education output">
+                            [" B.A. Geography - University of California Los Angeles", "Self Study - App Academy Full Stack Bootcamp"]
                         </div>
                     </li>
 
@@ -81,8 +83,8 @@ class About extends React.Component {
                         <div className="tech input">
                             <span className="arrow">></span>David.techStack
                         </div>
-                            <div className="tech output">
-                                ["Ruby", "HTML", "Javascript", "CSS", "Rails", "React", "Redux", "PostgreSQL", "Python", "GIS"]
+                        <div className="tech output">
+                            ["Ruby", "HTML", "Javascript", "CSS", "Rails", "React", "Redux", "PostgreSQL", "Python", "GIS"]
                         </div>
                     </li>
 
@@ -90,8 +92,8 @@ class About extends React.Component {
                         <div className="interests input">
                             <span className="arrow">></span>David.interests
                         </div>
-                            <div className="interests output">
-                                ["Skateboarding", "Rock Climbing", "League of Legends", "Apparel"]
+                        <div className="interests output">
+                            ["Skateboarding", "Rock Climbing", "League of Legends", "Apparel"]
                         </div>
                     </li>
 
