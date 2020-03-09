@@ -58,6 +58,7 @@
 }
 
 .output > a{
+    text-decoration: none;
     color: #abb1ff;
 }
 .output > a:active{
