@@ -11,7 +11,7 @@ const projectList = [
                       It features accounts and posts made by fictional characters from the Lord
                       of the Rings book. Post your own content, follow other users, scroll through
                       your feed and like the posts you like!`,
-        tech: ["HTML5", "CSS3", "SASS", "Javascript", "ES6", "Rails", "React", "Babel", "PostgreSQL"],
+        tech: ["HTML5", "CSS3", "SASS", "Javascript", "ES6", "Rails", "React", "Redux", "Babel", "PostgreSQL"],
         links:{
             live: "https://lord-of-the-gram.herokuapp.com/",
             source: "https://github.com/chimichanga-dd/LordOfTheGram"
@@ -20,14 +20,13 @@ const projectList = [
     },
     {
         name: "1024",
-        description: `Lord of the Gram is a clone of the popular social media app - InstaGram. 
-                      It features accounts and posts made by fictional characters from the Lord
-                      of the Rings book. Post your own content, follow other users, scroll through
-                      your feed and like the posts you like!`,
-        tech: ["HTML5", "CSS3", "SASS", "Javascript", "ES6", "Rails", "React", "Babel", "PostgreSQL"],
+        description: `1024 is a clone of a clone (2048) of a clone (1024) of a game (threes).
+                      A player slides tiles using arrow keys, combining those that have the same value.
+                      Create a "1024" and win the game before running out of space.`,
+        tech: ["HTML5", "CSS3", "Javascript", "ES6", "React", "Babel"],
         links:{
-            live: "https://lord-of-the-gram.herokuapp.com/",
-            source: "https://github.com/chimichanga-dd/LordOfTheGram"
+            live: "https://ten-twenty-four.herokuapp.com/",
+            source: "https://github.com/chimichanga-dd/1024"
         },
         demo: demo_1024
     }
