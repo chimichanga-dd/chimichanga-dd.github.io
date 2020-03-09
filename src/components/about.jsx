@@ -9,6 +9,8 @@ class About extends React.Component {
     constructor(props) {
         super(props)
 
+        this._isMounted = false
+
         this.state = {
             showOccupation: false
         }
@@ -16,8 +18,18 @@ class About extends React.Component {
         this.sleepyUpdate = this.sleepyUpdate.bind(this)
     }
 
+    componentDidMount(){
+        this._isMounted = true
+    }
+
+    componentWillUnmount(){
+        this._isMounted = false
+    }
+
     updateState(bool) {
-        this.setState({ showOccupation: bool })
+        if(this._isMounted){
+            this.setState({ showOccupation: bool })
+        }
     }
 
     sleepyUpdate() {
@@ -35,20 +47,14 @@ class About extends React.Component {
         return null
     }
 
-    changeCursorDisplay() {
-        // select cursor for occupation
-        let cursor = document.querySelectorAll(".typed-cursor")[0]
-        cursor.style.display = this.state.showOccupation ? "none" : "inline"
-    }
 
     render() {
-
         let occupationInput = <Typed
             strings={["David.occupation"]}
             typeSpeed={80}
             backDelay={3000}
             backSpeed={5}
-            onComplete={() => { this.updateState(true); this.changeCursorDisplay() }}
+            onComplete={(self) => { this.updateState(true); self.cursor.remove() }}
             loop
         />
 
