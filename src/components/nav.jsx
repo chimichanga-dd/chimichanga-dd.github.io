@@ -16,6 +16,7 @@ const Nav = () => {
             <ul className="nav-bar-link-container">
                 <li key={"About"}>
                     <a
+                        className="nav-bar-link"
                         onClick={(e) => { e.preventDefault(); jqueryScroll("About")}}
                     >
                         About
@@ -23,13 +24,15 @@ const Nav = () => {
                     </li>
                 <li key={"Projects"}>
                     <a
-                     onClick={(e) => {e.preventDefault(); jqueryScroll("Projects")}}
+                        className="nav-bar-link"
+                        onClick={(e) => {e.preventDefault(); jqueryScroll("Projects")}}
                     >
                         Projects
                     </a>
                 </li>
                 <li key={"Contact"}>
                     <a
+                        className="nav-bar-link"
                         onClick={(e) => { e.preventDefault(); jqueryScroll("Contact")}}
                     >
                         Contact
