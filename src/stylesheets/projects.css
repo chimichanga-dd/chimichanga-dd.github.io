@@ -100,10 +100,24 @@
     text-decoration: none;
 }
 
+.proj-links > a:hover{
+    border: 1px solid #e2e2e2;
+    padding: 6px 19px
+}
+
+.proj-links > a:active{
+    background-color: #b4b5e0;
+}
+
+
 .proj-links > a:last-child{
     background-color: #ffffff;
     color: #9296e4;
     box-shadow: 2px 3px 5px 1px #0000002b;
+}
+
+.proj-links > a:last-child:active{
+    background-color: #f5f5f5;
 }
 
 
