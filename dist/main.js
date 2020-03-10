@@ -47228,7 +47228,7 @@ var Welcome = function Welcome() {
   }, " ", "<", " "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "About",
     className: "mini-about"
-  }, "Former information systems analyst turned software engineer who is creating projects with Ruby, Rails, React and much more."));
+  }, "Former information systems analyst turned software engineer creating projects with Ruby, Rails, React and much more."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Welcome);
