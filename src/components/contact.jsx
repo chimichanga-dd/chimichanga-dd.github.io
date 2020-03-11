@@ -21,7 +21,7 @@ const Contact = () => {
                 </ul>
                 <ul className="contact-list-bottom">
                     <li className="contact-email">
-                        <a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address" rel="noopener">chimichanga@g.ucla.edu</a>
+                        <a href="mailto:me@daviddixon.io" target="_blank" alt="email address" rel="noopener">me@daviddixon.io</a>
                     </li>
                 </ul>
             </div>

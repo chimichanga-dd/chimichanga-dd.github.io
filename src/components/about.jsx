@@ -108,7 +108,7 @@ class About extends React.Component {
                             <span className="arrow">></span>David.contactInfo
                         </div>
                         <div className="contact-info output">
-                            ["<a href="mailto:chimichanga@g.ucla.edu" target="_blank" alt="email address" rel="noopener">chimichanga@g.ucla.edu</a>",
+                            ["<a href="mailto:me@daviddixon.io" target="_blank" alt="email address" rel="noopener">me@daviddixon.io</a>",
                             "<a href="https://www.linkedin.com/in/david-d-b36589190/" target="_blank" alt="linkedin link" rel="noopener">LinkedIn</a>",
                             "<a href="https://github.com/chimichanga-dd" target="_blank" alt="github link" rel="noopener">GitHub</a>"]
                         </div>
