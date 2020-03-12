@@ -46853,11 +46853,11 @@ function (_React$Component) {
       }, ">"), "David.contactInfo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact-info output"
       }, "[\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "mailto:chimichanga@g.ucla.edu",
+        href: "mailto:me@daviddixon.io",
         target: "_blank",
         alt: "email address",
         rel: "noopener"
-      }, "chimichanga@g.ucla.edu"), "\", \"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "me@daviddixon.io"), "\", \"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/david-d-b36589190/",
         target: "_blank",
         alt: "linkedin link",
@@ -46943,11 +46943,11 @@ var Contact = function Contact() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "contact-email"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "mailto:chimichanga@g.ucla.edu",
+    href: "mailto:me@daviddixon.io",
     target: "_blank",
     alt: "email address",
     rel: "noopener"
-  }, "chimichanga@g.ucla.edu")))));
+  }, "me@daviddixon.io")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
