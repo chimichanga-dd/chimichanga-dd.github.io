@@ -1,1 +1,1 @@
-See the portfolio at [daviddixon.io](https://www.daviddixon.io)
+See the portfolio at [daviddixon.io](daviddixon.io)
