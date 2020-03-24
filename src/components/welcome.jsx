@@ -14,7 +14,7 @@ const Welcome = () => {
                     </span>
                 </div>
                 <div id="About" className="mini-about">Former information systems analyst turned
-                                            software engineer creating projects
+                                            software developer creating projects
                                             with Ruby, Rails, React and much more.
                 </div>
             </div>
