@@ -90,7 +90,7 @@ class About extends React.Component {
                             <span className="arrow">></span>David.techStack
                         </div>
                         <div className="tech output">
-                            ["Ruby", "HTML", "Javascript", "CSS", "Rails", "React", "Redux", "PostgreSQL", "Python", "GIS"]
+                            ["HTML", "CSS", "Javascript", "React", "Redux", "Node", "PostgreSQL", "Python", "Rails", "Ruby", "GIS"]
                         </div>
                     </li>
 
