@@ -43895,11 +43895,11 @@ __webpack_require__.r(__webpack_exports__);
 var Resume = function Resume() {
   var iframeRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.useRef(null);
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
-    iframeRef.current.src = "http://docs.google.com/gview?url=http://github.com/chimichanga-dd/resume/raw/master/David_Dixon_Resume.pdf&embedded=true";
+    iframeRef.current.src = "https://docs.google.com/gview?url=http://github.com/chimichanga-dd/resume/raw/master/David_Dixon_Resume.pdf&embedded=true";
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     ref: iframeRef,
-    src: "http://docs.google.com/gview?url=http://github.com/chimichanga-dd/resume/raw/master/David_Dixon_Resume.pdf&embedded=true",
+    src: "https://docs.google.com/gview?url=http://github.com/chimichanga-dd/resume/raw/master/David_Dixon_Resume.pdf&embedded=true",
     style: {
       width: 100 + "%",
       height: 100 + "%"
