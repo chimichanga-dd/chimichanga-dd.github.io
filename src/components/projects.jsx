@@ -3,8 +3,22 @@
 import React from "react";
 import demo_lotg from "../images/demo/lotg_demo.png";
 import demo_1024 from "../images/demo/1024_demo.png";
+import demo_emoji from "../images/demo/emoji_demo.png";
 
 const projectList = [
+    {
+      name: "Roll Emoji",
+      description: `Roll Emoji is a web application featuring a rollable die, and chat room. The application was created
+                    to answer the question of who should handle deployment tasks. The lowest roll "wins" the job. Teams no
+                    longer need to switch between screen sharing, as the dice will broadcast its result live. Reactions 
+                    are shared by clicking on the various reaction emojis or by typing.`,
+      tech: ["React", "Socket.io", "Javascript", "ES6", "HTML5", "CSS3", "SCSS"],
+      links: {
+        live: "https://roll-emoji.herokuapp.com/",
+        source: "https://github.com/chimichanga-dd/roll-emoji"
+      },
+    demo: demo_emoji
+    },
     {
         name: "Lord of the Gram",
         description: `Lord of the Gram is a clone of the popular social media app - InstaGram. 
