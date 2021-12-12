@@ -8,11 +8,11 @@ import demo_emoji from "../images/demo/emoji_demo.png";
 const projectList = [
     {
       name: "Roll Emoji",
-      description: `Roll Emoji is a web application featuring a rollable die, and chat room. The application was created
-                    to answer the question of who should handle deployment tasks. The lowest roll "wins" the job. Teams no
-                    longer need to switch between screen sharing, as the dice will broadcast its result live. Reactions 
-                    are shared by clicking on the various reaction emojis or by typing.`,
-      tech: ["React", "Socket.io", "Javascript", "ES6", "HTML5", "CSS3", "SCSS"],
+      description: `Roll Emoji is a web application featuring a rollable die and chat room. The application was created
+                    to answer the question, "Who should handle deployment tasks?" The lowest roll "wins" the job. Teams no
+                    longer need to switch between screen sharing, as the die will broadcast its result live. Reactions 
+                    are shared by clicking on the various emojis or by typing in the chat.`,
+      tech: ["React", "Socket.io", "Javascript (ES6)", "HTML5", "CSS (SCSS)"],
       links: {
         live: "https://roll-emoji.herokuapp.com/",
         source: "https://github.com/chimichanga-dd/roll-emoji"
@@ -25,7 +25,7 @@ const projectList = [
                       It features accounts and posts made by fictional characters from the Lord
                       of the Rings book. Post your own content, follow other users, scroll through
                       your feed and like the posts you like!`,
-        tech: ["HTML5", "CSS3", "SASS", "Javascript", "ES6", "Rails", "React", "Redux", "Babel", "PostgreSQL"],
+      tech: ["HTML5", "CSS (SASS)", "Javascript (ES6)", "Rails", "React", "Redux", "Babel", "PostgreSQL"],
         links:{
             live: "https://lord-of-the-gram.herokuapp.com/",
             source: "https://github.com/chimichanga-dd/LordOfTheGram"
@@ -37,7 +37,7 @@ const projectList = [
         description: `1024 is a clone of a clone (2048) of a clone (1024) of a game (threes).
                       A player slides tiles using arrow keys, combining those that have the same value.
                       Create a "1024" and win the game before running out of space.`,
-        tech: ["HTML5", "CSS3", "Javascript", "ES6", "React", "Babel"],
+        tech: ["HTML5", "CSS3", "Javascript (ES6)", "React", "Babel"],
         links:{
             live: "https://ten-twenty-four.herokuapp.com/",
             source: "https://github.com/chimichanga-dd/1024"
