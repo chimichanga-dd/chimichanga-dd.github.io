@@ -11,7 +11,7 @@ const projectList = [
       description: `Roll Emoji is a web application featuring a rollable die and chat room. The application was created
                     to answer the question, "Who should handle deployment tasks?" The lowest roll "wins" the job. Teams no
                     longer need to switch between screen sharing, as the die will broadcast its result live. Reactions 
-                    are shared by clicking on the various emojis or by typing in the chat.`,
+                    are shared by clicking on the various emojis, or by typing in the chat.`,
     tech: ["HTML5", "CSS (SCSS)", "Javascript (ES6)", "React", "Socket.io"],
       links: {
         live: "https://roll-emoji.herokuapp.com/",

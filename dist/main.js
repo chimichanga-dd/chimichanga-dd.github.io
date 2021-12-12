@@ -43805,7 +43805,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var projectList = [{
   name: "Roll Emoji",
-  description: "Roll Emoji is a web application featuring a rollable die and chat room. The application was created\n                    to answer the question, \"Who should handle deployment tasks?\" The lowest roll \"wins\" the job. Teams no\n                    longer need to switch between screen sharing, as the die will broadcast its result live. Reactions \n                    are shared by clicking on the various emojis or by typing in the chat.",
+  description: "Roll Emoji is a web application featuring a rollable die and chat room. The application was created\n                    to answer the question, \"Who should handle deployment tasks?\" The lowest roll \"wins\" the job. Teams no\n                    longer need to switch between screen sharing, as the die will broadcast its result live. Reactions \n                    are shared by clicking on the various emojis, or by typing in the chat.",
   tech: ["HTML5", "CSS (SCSS)", "Javascript (ES6)", "React", "Socket.io"],
   links: {
     live: "https://roll-emoji.herokuapp.com/",
