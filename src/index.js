@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Portfolio from "./components/portfolio"
-
+import { createRoot } from "react-dom/client";
+import Portfolio from "./components/portfolio";
 
 document.addEventListener("DOMContentLoaded", () => {
-    let portfolioContainer = document.getElementById("portfolio-container");
-    ReactDOM.render(<Portfolio />, portfolioContainer)
-})
+  let portfolioContainer = document.getElementById("portfolio-container");
+  createRoot(portfolioContainer).render(<Portfolio />);
+});
