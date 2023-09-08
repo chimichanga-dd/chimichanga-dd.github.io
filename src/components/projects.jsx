@@ -34,7 +34,7 @@ const projectList = [
       "PostgreSQL"
     ],
     links: {
-      live: "https://lord-of-the-gram.herokuapp.com/",
+      live: "https://lotg.daviddixon.io/",
       source: "https://github.com/chimichanga-dd/LordOfTheGram"
     },
     demo: demo_lotg
