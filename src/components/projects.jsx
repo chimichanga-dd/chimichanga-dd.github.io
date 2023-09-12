@@ -2,8 +2,27 @@ import React from "react";
 import demo_lotg from "../images/demo/lotg_demo.png";
 import demo_1024 from "../images/demo/1024_demo.png";
 import demo_emoji from "../images/demo/emoji_demo.png";
+import demo_gpx from "../images/demo/gpx_merge_n_plot.png";
 
 const projectList = [
+  {
+    name: "GPX Merge n Plot",
+    description: `It is a set of scripts that merges, overlays, and animates 
+                    "unlimited" GPX activities. The result is an .MP4 showing 
+                    efforts over time. I wanted to visualize 2 years of running 
+                    in San Francisco, but was unable to find a tool that would do 
+                    this. Other tools exist to handle "replays", but none work with 
+                    more then a single GPX file. Built around the Strava bulk 
+                    export, this script can ingest multiple files and multiple file 
+                    types (.gpx, .fit, .tcx). A web app version is in the works.
+    `,
+    tech: ["Python3", "MatPlotLib", ".gpx/.fit/.tcx"],
+    links: {
+      live: "https://youtu.be/9nAHQXX2guE",
+      source: "https://github.com/chimichanga-dd/gpx_animation"
+    },
+    demo: demo_gpx
+  },
   {
     name: "Roll Emoji",
     description: `Roll Emoji is a web application featuring a rollable die and chat room. The application was created
