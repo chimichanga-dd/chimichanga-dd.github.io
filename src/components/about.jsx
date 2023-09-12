@@ -82,8 +82,9 @@ class About extends React.Component {
               <span className="arrow">></span>David.techStack
             </div>
             <div className="tech output">
-              ["HTML", "CSS", "Javascript", "React", "Redux", "Node",
-              "PostgreSQL", "Python", "Rails", "Ruby", "GIS"]
+              ["HTML", "CSS", "Javascript", "Typescript", "React", "Redux",
+              "Node", "PostgreSQL", "Docker", "AWS", "Python", "Ruby", "Rails",
+              "GIS"]
             </div>
           </li>
 
@@ -95,7 +96,7 @@ class About extends React.Component {
               <span className="arrow">></span>David.interests
             </div>
             <div className="interests output">
-              ["Skateboarding", "Rock Climbing", "League of Legends", "Apparel"]
+              ["Skateboarding", "Rock Climbing", "League of Legends", "Running"]
             </div>
           </li>
 
