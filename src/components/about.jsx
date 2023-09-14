@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import "../stylesheets/about.css";
 
 class About extends React.Component {
   constructor(props) {

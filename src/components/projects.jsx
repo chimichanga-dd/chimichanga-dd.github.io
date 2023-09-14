@@ -3,6 +3,7 @@ import demo_lotg from "../images/demo/lotg_demo.png";
 import demo_1024 from "../images/demo/1024_demo.png";
 import demo_emoji from "../images/demo/emoji_demo.png";
 import demo_gpx from "../images/demo/gpx_merge_n_plot.png";
+import "../stylesheets/projects.css";
 
 const projectList = [
   {

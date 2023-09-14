@@ -9,6 +9,7 @@ import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
 import Resume from "./resume";
+import "../stylesheets/main.css";
 
 const router = createBrowserRouter([
   {
