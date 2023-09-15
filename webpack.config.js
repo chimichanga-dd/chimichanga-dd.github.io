@@ -28,6 +28,7 @@ module.exports = {
       }
     ]
   },
+  plugins: [].concat(devMode ? [] : [new MiniCssExtractPlugin()]),
   resolve: {
     extensions: [".js", ".jsx", "*"]
   },
