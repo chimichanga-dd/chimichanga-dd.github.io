@@ -1,8 +1,8 @@
 <script>
-	import demo_1024 from '$lib/images/demo/1024_demo.png';
-	import demo_emoji from '$lib/images/demo/emoji_demo.png';
-	import demo_gpx from '$lib/images/demo/gpx_merge_n_plot_demo.png';
-	import demo_lotg from '$lib/images/demo/lotg_demo.png';
+	import demo_1024 from '$lib/images/demo/1024_demo.jpg';
+	import demo_emoji from '$lib/images/demo/emoji_demo.jpg';
+	import demo_gpx from '$lib/images/demo/gpx_merge_n_plot_demo.jpg';
+	import demo_lotg from '$lib/images/demo/lotg_demo.jpg';
 
 	const projectList = [
 		{
